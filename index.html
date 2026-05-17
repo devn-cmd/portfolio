@@ -234,7 +234,7 @@ footer {
 <section class="hero">
   <p class="hero-label">Hi, I'm</p>
   <h1>Devadeth N.<br><span class="grad">AI Engineer</span></h1>
-  <p class="hero-bio">I build intelligent systems at the intersection of RAG pipelines, local LLMs, and full-stack development. Passionate about leveraging advanced computer vision and NLP to create real-world applications that make a difference.</p>
+  <p class="hero-bio">I build intelligent systems at the intersection of RAG pipelines, local LLMs, and multi-agent AI workflows. Passionate about leveraging Python, LangChain, and API-driven automation to create real-world enterprise applications.</p>
   <div class="hero-links">
     <a href="#projects" class="btn btn-primary">View Projects</a>
     <a href="cv.pdf" target="_blank" download class="btn btn-outline">
@@ -256,22 +256,22 @@ footer {
     <div class="skill-card reveal">
       <div class="icon">&#9881;</div>
       <h3>AI / Machine Learning</h3>
-      <p>Machine Learning, Deep Learning, CNN, NLP, RAG pipelines, LLM (Ollama), FAISS, Embeddings, Computer Vision, Image Classification, Predictive Modeling, Feature Engineering, Scikit-learn, TensorFlow, Pandas</p>
+      <p>Machine Learning, Deep Learning, CNN, NLP, RAG Architecture, Multi-Agent Systems, LangGraph, LangChain, LLMs (Ollama, Qwen, Llama3.2), FAISS, ChromaDB, Embeddings, Computer Vision, ML Pipelines, Feature Engineering</p>
     </div>
     <div class="skill-card reveal">
       <div class="icon">&#128187;</div>
       <h3>Web Development</h3>
-      <p>React.js, Node.js, Express.js, REST APIs, HTML, JavaScript</p>
+      <p>React.js, Node.js, Express.js, FastAPI, Streamlit, REST APIs, HTML, JavaScript</p>
     </div>
     <div class="skill-card reveal">
       <div class="icon">&#128451;</div>
       <h3>Databases</h3>
-      <p>MySQL, PostgreSQL, CSV-to-DB migration, data modeling</p>
+      <p>PostgreSQL, MySQL, Vector Databases (ChromaDB, FAISS), Data Modeling</p>
     </div>
     <div class="skill-card reveal">
       <div class="icon">&#128736;</div>
-      <h3>Tools &amp; Platforms</h3>
-      <p>Git, GitHub, Docker, VS Code, Power BI, Excel, UiPath, OpenCV, MediaPipe</p>
+      <h3>Tools &amp; Frameworks</h3>
+      <p>Git, Docker, Docker Compose, MCP, MLflow, Jupyter, Power BI, n8n, UiPath, OpenCV, Slack SDK, Google APIs</p>
     </div>
     <div class="skill-card reveal">
       <div class="icon">&#128220;</div>
@@ -281,7 +281,7 @@ footer {
     <div class="skill-card reveal">
       <div class="icon">&#128161;</div>
       <h3>Soft Skills</h3>
-      <p>Problem-Solving, Communication, Teamwork, Analytical Thinking, Documentation</p>
+      <p>Problem-Solving, Communication, Teamwork, Analytical Thinking, Technical Documentation</p>
     </div>
   </div>
 </section>
@@ -292,27 +292,51 @@ footer {
   <h2 class="section-title reveal">Projects</h2>
   <div class="projects-grid">
 
-    <!-- Featured Project -->
+    <!-- ✨ NEW: Multi-Agent Pipeline ✨ -->
     <div class="project-card featured reveal">
       <div class="project-top">
-        <h3>AI-Powered Maintenance Decision Support System</h3>
-        <a href="https://github.com/devn-cmd/maintenance-ai-project" target="_blank" rel="noopener"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></a>
+        <h3>Multi-Agent Data Analysis Pipeline</h3>
+        <a href="https://github.com/devn-cmd/multi-agent-data-analysis" target="_blank" rel="noopener"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></a>
       </div>
-      <p>Full-stack AI system for equipment prioritization using a risk-based engine (failure frequency, criticality, maintenance history). Integrated a RAG pipeline with FAISS embeddings and a local LLM (Ollama) for intelligent maintenance Q&amp;A from documents. Entire stack containerized with Docker.</p>
+      <p>End-to-end multi-agent AI pipeline using LangGraph and local LLMs (Llama 3.2) for automated data cleaning, anomaly detection, and reporting. Containerized a FastAPI backend via Docker, integrating MCP, Slack SDK, and Google APIs for AI-triggered analytical workflows.</p>
       <div class="project-tags">
-        <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">PostgreSQL</span><span class="tag">FAISS</span><span class="tag">Ollama</span><span class="tag">RAG</span><span class="tag">Docker</span>
+        <span class="tag">Python</span><span class="tag">LangGraph</span><span class="tag">LangChain</span><span class="tag">Llama 3.2</span><span class="tag">FastAPI</span><span class="tag">Docker</span><span class="tag">MCP</span>
       </div>
     </div>
 
-    <!-- ✨ NEW: Stage Decor Project ✨ -->
+    <!-- Featured Project -->
+    <div class="project-card reveal">
+      <div class="project-top">
+        <h3>AI-Powered Maintenance Decision Support</h3>
+        <a href="https://github.com/devn-cmd/maintenance-ai-project" target="_blank" rel="noopener"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></a>
+      </div>
+      <p>Full-stack AI system for equipment prioritization using a risk-based engine. Integrated a RAG pipeline with FAISS embeddings and a local LLM (Qwen3.5) for intelligent maintenance Q&amp;A from documents.</p>
+      <div class="project-tags">
+        <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">PostgreSQL</span><span class="tag">FAISS</span><span class="tag">Ollama</span><span class="tag">RAG</span>
+      </div>
+    </div>
+
+    <!-- ✨ NEW: PDF RAG System ✨ -->
+    <div class="project-card reveal">
+      <div class="project-top">
+        <h3>PDF RAG System (Semantic Retrieval)</h3>
+        <a href="https://github.com/devn-cmd/pdf-rag-system" target="_blank" rel="noopener"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></a>
+      </div>
+      <p>Automated document ingestion pipeline processing technical machine learning PDFs into vectorized segments. Generated 384-dimensional semantic embeddings to achieve sub-100ms cosine similarity searches.</p>
+      <div class="project-tags">
+        <span class="tag">Python</span><span class="tag">LangChain</span><span class="tag">ChromaDB</span><span class="tag">Embeddings</span><span class="tag">SentenceTransformers</span>
+      </div>
+    </div>
+
+    <!-- Stage Decor Project -->
     <div class="project-card reveal">
       <div class="project-top">
         <h3>🎭 Stage Decor</h3>
         <a href="https://github.com/devn-cmd/Stage-Decor" target="_blank" rel="noopener"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></a>
       </div>
-      <p>Full-stack event decoration gallery & booking platform. Public gallery with category filtering, Cloudinary image uploads, JWT-secured admin panel for content management. Deployed on Vercel + Render with PostgreSQL.</p>
+      <p>Full-stack event decoration gallery & booking platform. Public gallery with category filtering, Cloudinary image uploads, JWT-secured admin panel for content management. Deployed on Vercel + Render.</p>
       <div class="project-tags">
-        <span class="tag">React</span><span class="tag">FastAPI</span><span class="tag">Python</span><span class="tag">PostgreSQL</span><span class="tag">Cloudinary</span><span class="tag">JWT</span><span class="tag">Vercel</span>
+        <span class="tag">React</span><span class="tag">FastAPI</span><span class="tag">Python</span><span class="tag">PostgreSQL</span><span class="tag">Cloudinary</span>
       </div>
     </div>
 
@@ -332,7 +356,7 @@ footer {
         <h3>Car Insurance Fraud Detection</h3>
         <a href="https://github.com/devn-cmd" target="_blank" rel="noopener"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></a>
       </div>
-      <p>ML pipeline processing 15K+ insurance claims (31 features) for fraud prediction. Implemented label encoding, temporal mapping, and VehiclePrice parsing for feature engineering.</p>
+      <p>ML pipeline processing 15K+ insurance claims for fraud prediction. Implemented label encoding, temporal mapping, and comprehensive feature engineering workflows.</p>
       <div class="project-tags">
         <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Scikit-learn</span>
       </div>
@@ -351,32 +375,10 @@ footer {
 
     <div class="project-card reveal">
       <div class="project-top">
-        <h3>Machine Learning Upskilling</h3>
-        <a href="https://github.com/devn-cmd/Machine-learning-project" target="_blank" rel="noopener"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></a>
-      </div>
-      <p>Regression models, classification experiments, and data analysis notebooks built during focused ML upskilling — reinforcing foundations in supervised learning and model evaluation.</p>
-      <div class="project-tags">
-        <span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Pandas</span>
-      </div>
-    </div>
-
-    <div class="project-card reveal">
-      <div class="project-top">
-        <h3>Booked Bus Ticket Store</h3>
-        <a href="https://github.com/devn-cmd/Booked-Bus-Ticket-Store-" target="_blank" rel="noopener"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></a>
-      </div>
-      <p>A Python-based system for managing and storing booked bus ticket data, applying data organization and persistence fundamentals with file-based storage.</p>
-      <div class="project-tags">
-        <span class="tag">Python</span>
-      </div>
-    </div>
-
-    <div class="project-card reveal">
-      <div class="project-top">
-        <h3>ML Revist</h3>
+        <h3>ML Revisit</h3>
         <a href="https://github.com/devn-cmd/ML-Revist" target="_blank" rel="noopener"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/></svg></a>
       </div>
-      <p>A collection of applied machine learning notebooks covering employee attrition prediction, cryptocurrency price forecasting, and job market clustering — exploring real-world datasets with Scikit-learn and Pandas.</p>
+      <p>A collection of applied machine learning notebooks covering employee attrition prediction, cryptocurrency price forecasting, and job market clustering — exploring real-world datasets.</p>
       <div class="project-tags">
         <span class="tag">Python</span><span class="tag">Jupyter</span><span class="tag">Scikit-learn</span><span class="tag">Pandas</span>
       </div>
@@ -481,7 +483,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('copy-email').addEventListener('click', (e) => {
     e.preventDefault();
     const label = document.getElementById('email-label');
-    navigator.clipboard.writeText('devadethnambiyeri169@gmail.com').then(() => {
+    navigator.clipboard.writeText('devadethworkemail@gmail.com').then(() => {
       label.textContent = 'Copied!';
       setTimeout(() => { label.textContent = 'Email Me'; }, 2000);
     });
